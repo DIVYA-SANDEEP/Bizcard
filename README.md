@@ -23,9 +23,12 @@ EasyOCR: Extracts text from images, a crucial component for OCR
 
 Workflow:
 Upload Business Card: Use the UPLOAD & EXTRACT menu to upload a business card image.
+
 Text Extraction: EasyOCR extracts text from the uploaded business card.
+
 Data Classification: Classify the extracted text into relevant categories such as company name, cardholder name, etc.
+
 Data Display: View the classified data and make edits if necessary.
+
 Database Upload: Click the "Upload to Database" button to store the data in a MySQL database.
-Database Operations
-The MODIFY menu provides options to READ, UPDATE, and DELETE data in the MySQL database.
+
