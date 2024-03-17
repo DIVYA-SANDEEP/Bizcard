@@ -12,11 +12,15 @@ Text Extraction: Utilizes EasyOCR to recognize and extract text from business ca
 Classification: Classifies extracted text into categories such as company name, cardholder name, designation, and more using regular expressions.
 GUI Interface: A user-friendly interface built with Streamlit, guiding users through the process.
 Database Integration: Stores extracted information in a MySQL database for easy access and management.
+
+
 Libraries/Modules used!
 Pandas: Creates a DataFrame with the scraped data.
 mysql.connector: To store and retrieve of data in MySQL.
 Streamlit: Creates a Graphical user Interface for seamless user interaction.
 EasyOCR: Extracts text from images, a crucial component for OCR
+
+
 Workflow:
 Upload Business Card: Use the UPLOAD & EXTRACT menu to upload a business card image.
 Text Extraction: EasyOCR extracts text from the uploaded business card.
